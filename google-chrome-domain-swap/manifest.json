@@ -10,7 +10,7 @@
 		"32": "icon-32x32.png",
 		"19": "icon-19x19.png"
 	},
-	"background": { "scripts": [ "domain-sets.js", "storage.js", "domain-switcher.js", "background.js" ] },
+	"background": { "scripts": [ "domain-sets.js", "storage.js", "domain-switcher.js", "background.js", "default-storage.js" ] },
 	"page_action": {
 		"default_icon": "icon-19x19.png",
 		"default_title": "Switch Domain"
