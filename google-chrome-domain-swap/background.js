@@ -17,7 +17,7 @@ function checkForDomainSet(tabId, changeInfo, tab) {
 						var parts = domain.split(':'),
 							newUrl = DomainSwitcher.setUrl( parts[ 0 ], parts[ 1 ] );
 
-						chrome.tabs.update(tabId, {url: newUrl});
+						chrome.tabs.update(tab.id, {url: newUrl});
 						return false;
 					}
 				});
