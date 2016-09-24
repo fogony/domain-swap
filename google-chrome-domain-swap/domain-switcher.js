@@ -17,7 +17,9 @@
 			var found_set,
 				sets = Storage.load(),
 				hostname = DomainSwitcher.getHostname( tab );
-
+				
+			if( ! sets ) { return; }
+			
 			sets.forEach(function (set, set_i) {
 				set.domains.forEach(function (domain, domain_i) {
 					if( hostname === domain ) {
