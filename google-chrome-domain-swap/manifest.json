@@ -1,9 +1,9 @@
 {
-	"name": "Domain Swap",
-	"version": "2.0.2",
+	"name": "Domain Swap UniMelb",
+	"version": "3.0.0",
 	"manifest_version": 2,
-	"description": "Switch domains without switching paths.",
-	"homepage_url": "https://github.com/jmhobbs/google-chome-domain-switcher",
+	"description": "Switch domains without switching paths. UniMelb version with default URL settings.",
+	"homepage_url": "https://github.com/fogony/domain-swap",
 	"icons": {
 		"128": "icon-128x128.png",
 		"64": "icon-64x64.png",
@@ -16,5 +16,5 @@
 		"default_title": "Switch Domain"
 	},
 	"options_page": "options.html",
-	"permissions": [ "tabs" ]
+	"permissions": [ "tabs", "storage" ]
 }
